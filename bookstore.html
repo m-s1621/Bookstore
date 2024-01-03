@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Bookselling University
+        </title>
+        <link href="bookstore.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/256e318a92.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "wrapper">
+       
+        <nav class = "navBG">
+            <div class = " navbar-center">
+              <div class = "userMenu">
+                <span class = "nav-icon">
+                    <i class="fa-solid fa-arrow-down-wide-short"></i>
+                </span>
+              </div>  
+                <div class="logo"> </div>
+                 <img class = "logo-book" src = "book-selling-logo_3new.png" height ="80" width = "250"> 
+                <div class = "cartIcon">
+                    <span class = "nav-icon">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <div class = "bookInCart">+0</div>
+                </div>
+            </div>
+        </nav>
+   
+       <!-- <main> -->
+    <main>
+        <h1>Books</h1>
+         <!-- search bar -->
+        <div class = "searchContainer"> 
+            <input tpye = "text" name ="BookSearch" id = "searchBar" placeholder="Search for books" />
+            <span class = search-icon > 
+            <i class="fa-solid fa-magnifying-glass fa-s" ></i>
+            </span>
+        </div>
+       <!-- book diaplay-->
+        <div class = "section-titile" > 
+          <div class = "mainContainer">  
+            <div class = "imgContainer">
+            </div>    
+          </div>
+        </div> 
+        <!-- cart -->
+        <div class = "cart-overlay">  
+         <div class = "cart">
+          <span class = "close-cart"> 
+          <i class="fa-sharp fa-solid fa-square-xmark"></i>
+          </span>
+         
+          <h2 class ="cartHeading"> Your Cart </h2>
+          <div class = " cart-content">
+            <h3>Books</h3>
+          </div>
+        
+          <div class = "cart-footer">
+            <h3>Total: $<span class = "cart-total">0</span></h3>
+            <button class="clearBtn">Clear Cart</button>
+            <br>
+            <br>
+            <button class="orderBtn">Place an Order</button>
+            </div>
+           </div>  
+        </div>
+      </main>
+      
+    <footer> Bookselling University &copy;</footer>
+    <br> <br>
+    </div>
+        
+    <script src="bookstore.js"></script>
+      
+  </body>
+</html>
