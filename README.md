@@ -19,3 +19,23 @@ The website includes a functioning search bar for searching by book titles or pr
 
 User Menu 
 The main page has a user menu for users to check their profiles.
+
+Search Functionality 
+The website includes a functioning search bar for searching by book titles or prices.
+
+User Authentication 
+New users can register an account with information including last name, first name, email, zip code, username, and password.
+MongoDB is used as the database for user information.
+
+Login and Redirect 
+Users can log in using a local strategy (username + password).
+Upon successful login, users are redirected to the main bookstore page, displaying a welcome message.
+
+Technologies Used
+HTMl
+CSS
+JavaScript
+Node.js
+Express.js
+MongoDB
+EJS (Embedded JavaScript for views)
