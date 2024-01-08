@@ -7,6 +7,7 @@ public/ - Static files (CSS, images, etc.)
 views/ - EJS view templates
 routes/ - Route handlers
 models/ - MongoDB data models
+controllers/ - Application logic
 config/ - Configuration files
 app.js - Main application file
 
