@@ -28,9 +28,12 @@ Place an order with the required details.
 
 Getting Started
 Clone the repository: git clone git@github.com:m-s1621/Bookstore.git
-Set up MongoDB and configure connection in the application.
-Install dependencies: 
-npm install passport-local-mongoose mongoose express ejs cookie-session passport express-session connect-ensure-login
+Set up MongoDB and configure connection in the application. 
+  (create free acoount and conncet to account easierst way is Connecting with MongoDB Shell):  
+    1. Install via HomeBrew(brew install mongosh)
+    2. Run your connection string in your command line (mongosh "mongodb+srv://cluster0.sk2gd.mongodb.net/" --apiVersion 1 --username yourUserName
+    ** replace yourUserName with your user name and cluster0 if you renamed it **
+Install dependencies: npm install passport-local-mongoose mongoose express ejs cookie-session passport express-session connect-ensure-login
 node app.js
 Go to http://localhost:3000 to access the BookStore website.
 
