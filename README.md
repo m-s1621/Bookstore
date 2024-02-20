@@ -46,7 +46,7 @@ Shopping Cart Features
 The shopping cart displays added books with images, prices, and titles.
 Total price is calculated and displayed.
 Users can remove, add, or reduce the quantity of each book in the cart.
-Search Functionality (10 points)
+Search Functionality 
 The website includes a functioning search bar for searching by book titles or prices.
 
 User Menu 
